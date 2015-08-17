@@ -1,0 +1,15 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/tabla_final"
+    android:id="@+id/danceFrame" >
+    <com.example.tabla.TablaBitmap
+        android:id="@+id/img_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible" />
+
+   
+</FrameLayout><!-- From: file:/home/dhruv/StudioProjects/Tabla/app/src/main/res/layout/activity_tabla.xml -->
